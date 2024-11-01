@@ -1,0 +1,27 @@
+{
+    "name": "daoo/aula02",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Daoo\\Aula02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "g1ll",
+            "email": "gillvelleda@gmail.com"
+        }
+    ],
+    "scripts":{
+        "dev":"php -S localhost:8080 -t src/"
+    },
+    "require": {
+        "brandonwamboldt/utilphp": "^1.1"
+    },
+    "require-dev": {
+        "psy/psysh": "^0.12.4"
+    },
+    "config": {
+        "process-timeout":0
+    }
+}
